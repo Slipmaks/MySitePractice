@@ -1,0 +1,89 @@
+html,
+body {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    margin: auto;
+    position: relative;
+    padding-top: 5%;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.h1-header {
+    font-size: 40px;
+    color: rgb(166, 163, 158);
+    text-shadow: 2px 3px 5px rgb(95, 95, 95);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-view {
+    display: flex;
+}
+
+
+.theme-button {
+    background-color: rgb(255, 195, 0);
+    border: none;
+    box-shadow: 2px 2px 2px 0px gray;
+    margin: 5px;
+    border-radius: 4px;
+    padding: 6px 26px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.theme-button:hover {
+    opacity: 1;
+}
+
+.theme-button:active {
+    position: relative;
+}
+
+.site-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(166, 163, 158);
+}
+
+.lyrics-list {
+    width: 50%;
+    margin: 3%;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(16, 15, 14);
+}
+
+.lyrics-style {
+    margin: 3%;
+    padding: 2%;
+    width: 46%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: rgba(140, 140, 148, 0.85);
+
+}
+
+li {
+    margin-top: 2%;
+    list-style: none;
+    background-color: rgb(255, 255, 65);
+    background-size: cover;
+}
