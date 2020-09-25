@@ -3,18 +3,17 @@ html {
     width: 100%;
 }
 
-.fullscreen-background{
-        background-image: url(../images/background.jpg);
-        /*background-color: khaki;*/
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+.fullscreen-background {
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .h1-header {
     font-size: 40px;
     color: rgb(166, 163, 158);
-    text-shadow: 2px 3px 5px rgb(95, 95, 95);
+    text-shadow: 3px 2px 0px rgb(0, 0, 0);
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
@@ -52,19 +51,16 @@ html {
 .left-side {
     width: 42%;
     margin: 4%;
+    font-family: 'Raleway', sans-serif;
 }
 
 .left-side {
     text-align: right;
-    font-family: 'Raleway', sans-serif;
-    color: rgb(16, 15, 14);
 }
 
 .right-side {
-    font-family: 'Raleway', sans-serif;
     text-align: center;
     background-color: rgba(140, 140, 148, 0.85);
-
 }
 
 li {
@@ -87,6 +83,7 @@ li {
     font-family: 'Raleway', sans-serif;
     color: rgb(166, 163, 158);
 }
+
 .lyric {
     margin: inherit;
 }
