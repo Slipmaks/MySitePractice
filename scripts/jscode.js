@@ -1,5 +1,5 @@
 function init() {
-    let name = 'Hellboy';
+    let name = 'Hello World!';
 
     function returnName() {
         alert(name);
