@@ -1,8 +1,9 @@
-var siteHeader = document.querySelector('.h1-header');
+let siteHeader = document.querySelector('.h1-header');
 siteHeader.textContent = "Lyrics list of Meshuggah songs"
 
-/*var lyricBox = document.querySelector('.lyric');
-const fileUrl = 'media/text.txt'
-fetch(fileUrl)
-    .then(r => r.text)
-    .then(t => console.log(t))*/
+let lyricBox = document.querySelector('.lyric');
+let list = document.querySelector('li');
+
+list.onclick = function () {
+    lyricBox.textContent = 'text';
+}
