@@ -5,5 +5,12 @@ let lyricBox = document.querySelector('.lyric');
 let list = document.querySelector('li');
 
 list.onclick = function () {
-    lyricBox.textContent = 'text';
+    lyricBox.textContent = '/media/text.txt';
+}
+
+var iframe = document.getElementById("frame");
+
+iframe.onload = function () {
+    iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+    iframe.style.width = iframe.contentWindow.document.body.scrollWidth + 'px';
 }

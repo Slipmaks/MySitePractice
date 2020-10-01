@@ -2,26 +2,27 @@ html {
     height: 100%;
     width: 100%;
 }
+
 button {
     font-family: 'Raleway', sans-serif;
     height: 25px;
     width: 80px;
     opacity: 0.8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
+    position: fixed;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 button:hover {
     opacity: 1;
 }
-button:active{
+
+button:active {
     height: 27px;
     width: 85px;
     font-size: 15px;
 }
+
 .fullscreen-background {
     background-image: url(../images/background.jpg);
     background-position: center;
@@ -63,7 +64,9 @@ button:active{
 
 .split {
     display: flex;
+
 }
+
 
 .right-side,
 .left-side {
@@ -81,6 +84,30 @@ button:active{
     background-color: rgba(140, 140, 148, 0.85);
 }
 
+@media screen and (max-width: 875px) {
+    .split {
+        display: inherit;
+    }
+
+    .left-side,
+    .right-side {
+        width: 80%;
+        margin: auto;
+        margin-top: 60px;
+    }
+    .left-side{
+        margin-top: 150px;
+    }
+    button{
+        position: absolute;
+        top: 170px;
+    }
+    .fullscreen-background{
+        background-size: unset;
+        background-repeat: inherit;
+    }
+}
+
 li {
     box-shadow: -3px 2.5px 0px 0.2px rgb(202, 0, 202);
     margin: 1vh;
@@ -91,7 +118,7 @@ li {
 }
 
 .site-footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 98%;
@@ -100,8 +127,4 @@ li {
     margin: 1%;
     font-family: 'Raleway', sans-serif;
     color: rgb(166, 163, 158);
-}
-
-.lyric {
-    margin: inherit;
 }
