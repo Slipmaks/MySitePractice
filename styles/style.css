@@ -8,7 +8,7 @@ button {
     height: 25px;
     width: 80px;
     opacity: 0.8;
-    position: fixed;
+    position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -38,35 +38,14 @@ button:active {
     font-family: 'Raleway', sans-serif;
 }
 
-.theme-button {
-    background-color: rgb(255, 195, 0);
-    border: none;
-    box-shadow: 2px 2px 2px 0px gray;
-    margin: 5px;
-    border-radius: 4px;
-    padding: 6px 26px;
-    text-align: center;
-    cursor: pointer;
-    text-decoration: none;
-    outline: none;
-    display: inline-block;
-    font-size: 12px;
-    opacity: 0.5;
-}
-
-.theme-button:hover {
-    opacity: 1;
-}
-
-.theme-button:active {
-    position: relative;
-}
-
 .split {
     display: flex;
-
 }
 
+.h1-text {
+    font-size: x-large;
+    color: white
+}
 
 .right-side,
 .left-side {
