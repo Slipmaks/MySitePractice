@@ -7,7 +7,7 @@ let lyricBox = document.querySelector('.lyric');
 let list = document.querySelector('li');
 
 list.onclick = function () {
-    lyricBox.textContent = '/media/text.txt';
+    lyricBox.textContent = '/media/text.html';
 }
 
 //resize frame element by content
