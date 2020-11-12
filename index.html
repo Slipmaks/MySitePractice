@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Максим Мацидульськас, https://github.com/slipmaks">
+    <meta name="description" content="Тестовый сайт. Обучаюсь JavaScript, HTML, CSS">
     <title>jscode Practice</title>
     <link rel="stylesheet" href="styles/style.css">
     <style>
@@ -12,42 +14,42 @@
 </head>
 
 
-<body class="fullscreen-background">
+<body>
     <header>
-        <h1 class="h1-header"></h1>
+        <h1 class="h1-header">Header</h1>
+        <button type="button">button</button>
+        <h1 class="h1-text">Text</h1>
     </header>
-    <div>
-        <div>
-            <button type="button">button</button>
-            <h1 class="h1-text">Text</h1>
-        </div>
-        <div class="split">
-            <div class="left-side">
-                <li onclick="location.href='#1';" style="cursor: pointer;">Pineal Gland Optics - Meshuggah</li>
-                <li onclick="location.href='#2';" style="cursor: pointer;">New Millennium Cyanide Christ - Meshuggah
+
+    <main>
+
+        <nav>
+            <ul>
+                <li onclick="location.href='#1'" style="cursor: pointer">Pineal Gland Optics - Meshuggah</li>
+                <li onclick="location.href='#2'" style="cursor: pointer">New Millennium Cyanide Christ - Meshuggah
                 </li>
-                <li onclick="location.href='#3';" style="cursor: pointer;">Rational Gaze - Meshuggah</li>
-                <li onclick="location.href='#4';" style="cursor: pointer;">Clockworks - Meshuggah</li>
-                <li onclick="location.href='#5';" style="cursor: pointer;">Born in Dissonance - Meshuggah</li>
-                <li onclick="location.href='#6';" style="cursor: pointer;">Dancers to a Discordant System -
+                <li onclick="location.href='#3'" style="cursor: pointer">Rational Gaze - Meshuggah</li>
+                <li onclick="location.href='#4'" style="cursor: pointer">Clockworks - Meshuggah</li>
+                <li onclick="location.href='#5'" style="cursor: pointer">Born in Dissonance - Meshuggah</li>
+                <li onclick="location.href='#6'" style="cursor: pointer">Dancers to a Discordant System -
                     Meshuggah
                 </li>
-                <li onclick="location.href='#7';" style="cursor: pointer;">Future Breed Machine - Meshuggah</li>
-                <li onclick="location.href='#8';" style="cursor: pointer;">Combustion - Meshuggah</li>
-                <li onclick="location.href='#9';" style="cursor: pointer;">Do Not Look Down - Meshuggah</li>
-            </div>
+                <li onclick="location.href='#7'" style="cursor: pointer">Future Breed Machine - Meshuggah</li>
+                <li onclick="location.href='#8'" style="cursor: pointer">Combustion - Meshuggah</li>
+                <li onclick="location.href='#9'" style="cursor: pointer">Do Not Look Down - Meshuggah</li>
+            </ul>
+        </nav>
 
+        <aside>
+            <iframe class="lyric" src="media/text.txt" id="frame" title="this is frame"></iframe>
+        </aside>
+        
+    </main>
 
-            <div class="right-side">
-                <iframe class="lyric" src="media/text.txt" scrolling="no" frameborder='0' id="frame"></iframe>
-            </div>
-        </div>
-    </div>
-    <footer class="site-footer">
+    <footer>
         <p><strong>Maksym Matsydulskas</strong></p>
         <p>Powered by HTML,CSS, JavaScript</p>
     </footer>
-    </div>
     <script src="scripts/main.js"></script>
 </body>
 
