@@ -12,10 +12,8 @@ html {
 }
 
 body {
-    width: 70%;
-    min-width: 800px;
-    margin: 0 auto;
-    background-color: rgba(46, 46, 46, 0.473);
+    height: 100%;
+    width: 100%;
 }
 
 header {
@@ -39,7 +37,7 @@ button:active {
     font-size: 15px;
 }
 
-.h1-header {
+.h1-header , .h1-text{
     font-size: 40px;
     color: rgb(166, 163, 158);
     text-shadow: 3px 2px 0px rgb(0, 0, 0);
@@ -48,13 +46,15 @@ button:active {
 }
 
 
-.h1-text {
-    font-size: x-large;
-    color: white
-}
 
 main {
+    padding: 2em;
     display: flex;
+    width: 90%;
+    min-width: 800px;
+    height: inherit;
+    margin: 0 auto;
+    background-color: rgba(46, 46, 46, 0.473);
 }
 
 nav,
@@ -69,13 +69,12 @@ nav {
 
 aside {
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.384);
 }
 
 .lyric-frame {
+    overflow: hidden;
     border: 0px;
-    background-color: rgba(255, 255, 255, 0.384);
-    width: 30em;
-    height: 33em;
 }
 
 @media screen and (max-width: 800px) {

@@ -11,12 +11,12 @@ list.onclick = function () {
 }
 
 //resize frame element by content
-/*var iframe = document.getElementById("frame");
+var iframe = document.getElementById("frame");
 
 iframe.onload = function () {
     iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
     iframe.style.width = iframe.contentWindow.document.body.scrollWidth + 'px';
-}*/
+}
 
 //set user name
 var myButton = document.querySelector('button');
