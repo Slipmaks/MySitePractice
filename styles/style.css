@@ -79,28 +79,13 @@ aside {
 
 @media screen and (max-width: 800px) {
     main {
-        display: inherit;
+        display: table;
     }
 
-    .left-side,
-    .right-side {
+    nav,
+    aside {
         width: 80%;
-        margin: auto;
-        margin-top: 60px;
-    }
-
-    .left-side {
-        margin-top: 150px;
-    }
-
-    button {
-        position: absolute;
-        top: 170px;
-    }
-
-    .fullscreen-background {
-        background-size: unset;
-        background-repeat: inherit;
+        margin: 0;
     }
 }
 
